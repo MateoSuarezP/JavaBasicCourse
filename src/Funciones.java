@@ -16,18 +16,21 @@ public class Funciones {
     /**
      * Descripción: Función que permite hallar el area de un circulo especificando su radio.
      * @param r Radio del circulo
+     * @return Arroja el resultado de la operación matematica para hallar el area de un circulo
      * */
     public static double circleArea (double r){
         return Math.PI * Math.pow(r, 2);
     }
      /** Descripción: Función que permite hallar el de una esfera especificando su radio.
      * @param r Radio de la esfera
+      * @return Arroja el resultado de la operación matematica para hallar el area de una esfera
      * */
     public static double sphereArea (double r){
         return 4 * Math.PI * Math.pow(r, 2);
     }
     /** Descripción: Función que permite hallar el volúmen de una esfera especificando su radio.
      * @param r Radio de la esfera
+     * @return Arroja el resultado de la operación matematica para hallar el volúmen de una esfera.
      * */
     public static double sphereVolume (double r){
         return (4/3) * Math.PI * Math.pow(r, 3);
